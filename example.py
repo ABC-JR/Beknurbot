@@ -6,7 +6,7 @@ TOKEN = "8397224957:AAEKkBLFe101QNElIoLkwhg05dHnbmateD4"
 bot = telebot.TeleBot(TOKEN)
 
 login = "leo_zzz"
-password = "uniz12345"
+password = "fusetea570"
 
 # хранение статуса пользователя
 user_state = {}
