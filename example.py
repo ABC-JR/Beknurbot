@@ -2,11 +2,11 @@ import hashlib
 from datetime import datetime, timedelta
 import telebot
 
-TOKEN = "8397224957:AAEKkBLFe101QNElIoLkwhg05dHnbmateD4"
+TOKEN = "8301558972:AAFT5r0UPfYooIUHRmUqH6zKX7No6q76vDQ"
 bot = telebot.TeleBot(TOKEN)
 
 login = "leo_zzz"
-password = "uniz12345"
+password = "fusetea570"
 
 # хранение статуса пользователя
 user_state = {}
@@ -108,7 +108,8 @@ def handle_message(message):
 
         )
         bot.reply_to(message, msg)
-        bot.reply_to(f"1️⃣ {result['passwords'][0]}", msg)
+        bot.reply_to(message, f"{result['passwords'][0]}")
+
 
 
     except Exception as e:
