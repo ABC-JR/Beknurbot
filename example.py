@@ -108,7 +108,8 @@ def handle_message(message):
 
         )
         bot.reply_to(message, msg)
-        bot.reply_to(f"1️⃣ {result['passwords'][0]}", msg)
+        bot.reply_to(message, f"{result['passwords'][0]}")
+
 
 
     except Exception as e:
